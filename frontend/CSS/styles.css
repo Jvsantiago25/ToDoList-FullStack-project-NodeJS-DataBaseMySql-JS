@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat&family=Comfortaa&family=Condiment&family=Lora&family=Nunito+Sans:opsz@6..12&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Confortaa", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffff;
+}
+
+main {
+  background-color: #535252;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(216, 214, 214, 0.2);
+}
+
+.add-form {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 15px;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #696969;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button[type="submit"] {
+  background-color: #000000;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #636262;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  padding: 10px 15px;
+  border: 1px solid #5e5e5e;
+  text-align: center;
+}
+
+td {
+  color: #000000;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(185, 185, 183);
+}
+
+select {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: #919191;
+}
+
+select:hover {
+  background-color: #ddd;
+}
+
+.btn-action {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-action:nth-child(1) {
+  background-color: orange;
+  margin-right: 5px;
+}
+
+.btn-action:nth-child(2) {
+  background-color: rgba(237, 42, 42, 0.9);
+}
